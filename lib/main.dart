@@ -7,25 +7,38 @@ import 'widgets/image_widget.dart';
 import 'widgets/text_widget.dart';
 import 'widgets/icon_widget.dart';
 import 'widgets/listview_widget.dart';
+import 'widgets/gridview_widget.dart';
+import 'widgets/form_widget.dart';
+import 'widgets/text_field_widget.dart';
+import 'widgets/cupertino_activity_indicator_widget.dart';
+import 'widgets/cuptertino_alert_dialog.dart';
+import 'widgets/cupertino_button_widget.dart';
+import 'widgets/cupertino_tab.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData.light(),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
       // home: WrapApp(),
       // home: ContainerApp(),
       //home: ImageApp(),
       //home: TextApp(),
       //home: new IconWidget(),
-      home: ListViewWidget(),
+      //home: ListViewWidget(List<String>.generate(50, (i) => "Item-$i")),
+      //home: GridViewWidget(),
+      //home: FormWidget(),
+      //home: TextFieldWidget(),
+      // home: CupertinoActivityIndicatorWidget(),
+      // home: CuptertinoAlertDialogWidget(),
+      //home: CupertinoButtonWidget(),
+      home: TabWidget(),
     );
   }
 }
