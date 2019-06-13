@@ -24,6 +24,8 @@ import 'layout/fitted_box_layout.dart';
 import 'layout/stack_layout.dart';
 import 'layout/overflow_box_layout.dart';
 import 'layout/size_box_layout.dart';
+import 'layout/table_layout.dart';
+import 'layout/final_work_layout.dart';
 
 void main() => runApp(MyApp());
 
@@ -35,7 +37,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.light(),
-      home: SizeBoxLayout(),
+      home: FinalWorkDemo(),
+      // home: SizeBoxLayout(),
+      // home: TableLayoutDemo(),
       // home: OverflowLayoutDemo(),
       //home: StackLayoutDemo(),
       //home: FittedBoxLayout(),
