@@ -14,6 +14,16 @@ import 'widgets/cupertino_activity_indicator_widget.dart';
 import 'widgets/cuptertino_alert_dialog.dart';
 import 'widgets/cupertino_button_widget.dart';
 import 'widgets/cupertino_tab.dart';
+import 'layout/container_layout.dart';
+import 'layout/center_layout.dart';
+import 'layout/padding_layout.dart';
+import 'layout/align_layout.dart';
+import 'layout/row_layout.dart';
+import 'layout/column_layout.dart';
+import 'layout/fitted_box_layout.dart';
+import 'layout/stack_layout.dart';
+import 'layout/overflow_box_layout.dart';
+import 'layout/size_box_layout.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,6 +35,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.light(),
+      home: SizeBoxLayout(),
+      // home: OverflowLayoutDemo(),
+      //home: StackLayoutDemo(),
+      //home: FittedBoxLayout(),
+      // home: layoutDemo(),
+      //  home: ColumnLayoutDemo(),
+      //home: AlignLayoutDemo(),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
       // home: WrapApp(),
       // home: ContainerApp(),
@@ -38,7 +55,10 @@ class MyApp extends StatelessWidget {
       // home: CupertinoActivityIndicatorWidget(),
       // home: CuptertinoAlertDialogWidget(),
       //home: CupertinoButtonWidget(),
-      home: TabWidget(),
+      //home: TabWidget(),
+      //home: layoutDemo(),
+      //home: CenterLayoutDemo(),
+      // home: PaddingLayoutDemo(),
     );
   }
 }
