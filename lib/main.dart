@@ -26,6 +26,8 @@ import 'layout/overflow_box_layout.dart';
 import 'layout/size_box_layout.dart';
 import 'layout/table_layout.dart';
 import 'layout/final_work_layout.dart';
+import 'gesture/gesture.dart';
+import 'gesture/dismissible_layout.dart';
 
 void main() => runApp(MyApp());
 
@@ -37,7 +39,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.light(),
-      home: FinalWorkDemo(),
+      // home: ButtonDemo(),
+      home: DismissibleDemo(),
+      // home: FinalWorkDemo(),
       // home: SizeBoxLayout(),
       // home: TableLayoutDemo(),
       // home: OverflowLayoutDemo(),
