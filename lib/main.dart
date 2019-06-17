@@ -34,6 +34,9 @@ import 'decorate/decorated_box_layout.dart';
 import 'decorate/gradient_layout.dart';
 import 'decorate/rotated_layout.dart';
 import 'decorate/clip_layout.dart';
+import 'canvas/paint_layout.dart';
+import 'animate/animate_layout.dart';
+import 'animate/hero_layout.dart';
 
 void main() => runApp(MyApp());
 
@@ -45,8 +48,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.light(),
+      home: HeroDemo(),
+      //home: AnimateDemo(),
+      //  home: PaintDemo(),
       //  home: RotatedBoxDemo(),
-      home: ClipDemo3(),
+      //home: ClipDemo3(),
       //home: GradientDemo(),
       //home: OpacityDemo(),
       //home: DecoratedBoxDemo(),
