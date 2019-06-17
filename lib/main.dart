@@ -28,6 +28,12 @@ import 'layout/table_layout.dart';
 import 'layout/final_work_layout.dart';
 import 'gesture/gesture.dart';
 import 'gesture/dismissible_layout.dart';
+import 'route/route_layout.dart';
+import 'decorate/opacity_layout.dart';
+import 'decorate/decorated_box_layout.dart';
+import 'decorate/gradient_layout.dart';
+import 'decorate/rotated_layout.dart';
+import 'decorate/clip_layout.dart';
 
 void main() => runApp(MyApp());
 
@@ -39,8 +45,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.light(),
+      //  home: RotatedBoxDemo(),
+      home: ClipDemo3(),
+      //home: GradientDemo(),
+      //home: OpacityDemo(),
+      //home: DecoratedBoxDemo(),
+      // home: RouteDemo(),
       // home: ButtonDemo(),
-      home: DismissibleDemo(),
+      //home: DismissibleDemo(),
       // home: FinalWorkDemo(),
       // home: SizeBoxLayout(),
       // home: TableLayoutDemo(),
