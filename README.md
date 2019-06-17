@@ -2,12 +2,18 @@
 
 A new Flutter application.
 
-Container    容器，包含一个Widget
-Image          图片组件
-Text             文本组件
-Icon             图标组件
-IconButton  图标按钮
-RaisedButton    凸起按钮组件
+Container    容器，包含一个Widget   
+
+Image          图片组件   
+
+Text             文本组件   
+
+Icon             图标组件   
+
+IconButton  图标按钮   
+
+RaisedButton    凸起按钮组件  
+
 ListView    列表组件,嵌套在Scaffold中
 ListView+itemBuilder    长列表
 GridView    网格列表组件
